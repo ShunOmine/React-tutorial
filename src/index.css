@@ -1,14 +1,57 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@charset "UTF-8";
+html{
+    margin: 0;
+    padding: 0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body{
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+    font-family: YuGothic, 游ゴシック, roboto,
+                "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic Pro",
+                "ヒラギノ角ゴ Pro W3", "Noto Sans Japanese", sans-serif;
+}
+header{
+    background: #fefefe;
+    color: #3ecec7;
+}
+header p{
+    font-size: 35px;
+    margin: 0;
+    padding: 5px 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.wrapper{
+    background-image: url("radu-florin-648487-unsplash.jpg");
+    height: 700px;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+    object-fit: cover;
+}
+.wrapper .container{
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 700px;
+}
+.wrapper .container h1{
+    margin: 0;
+    color: #fefefe;
+    letter-spacing: 2px;
+    font-size: 40px;
+    position: relative;
+    top: 50%;
+    left: 40%;
+    transform: translate(-13%, -30%);
+}
+footer{
+    background: #f7f7f7;
+    text-align: center;
+    color: #999999;
+    padding: 15px;
+    letter-spacing: 2px;
 }
